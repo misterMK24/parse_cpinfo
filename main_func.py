@@ -55,6 +55,7 @@ def group_obj():
         index = 0
         list_name = []
         i = 0
+        group_name = []
         # tuple_name = tuple()
         ref_obj = None
         for line in file:
@@ -65,9 +66,8 @@ def group_obj():
                 if name:
                     index = 2
                     name_parse = re.findall(r'\b\S+\b', name[0])
-                    if name_parse[1] == 'modem_regs':
-                        print("catch")
                     name_parse[1] = "\n" + "Group:  " + name_parse[1] + "\n"
+                    group_name.append(name_parse[1])
                     result_str.append(name_parse[1])
             elif index == 2:
                 if re.findall(r'\s+:color', line):
@@ -88,9 +88,13 @@ def group_obj():
             for i in range(len(list_name)):
                 for y in range(len(list_name[i])):
                     file.write(list_name[i][y] + "\n")
+        with open("C:\_python\\results\\results_parse_groups_only.txt", 'a+') as ff:
+            for line in group_name:
+                ff.write(line)
+
         return list_name
 
 
-compare_str()
-# group_obj()
+# compare_str()
+group_obj()
 # host_plain()
