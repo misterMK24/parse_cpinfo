@@ -9,20 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main_func.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="83" column="62" lean-forward="true" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +32,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,10 +43,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../health_check_parse" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -118,14 +105,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.219935" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.219935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21885157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -145,9 +131,7 @@
         <breakpoint enabled="true" type="python-exception">
           <condition expression="ref_obj_parse[1] == 'modem_aksubaevo'" language="Python" />
           <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="condition" value="ref_obj_parse[1] == 'modem_aksubaevo'" />
             <option name="notifyOnTerminate" value="true" />
-            <option name="myCondition" value="ref_obj_parse[1] == 'modem_aksubaevo'" />
           </properties>
         </breakpoint>
       </default-breakpoints>
@@ -194,8 +178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="83" column="62" lean-forward="true" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+        <state relative-caret-position="722">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
